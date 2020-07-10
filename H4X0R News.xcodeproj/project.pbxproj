@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240BC8A624B21F29001A6273 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240BC8A524B21F29001A6273 /* NetworkManager.swift */; };
+		240BC8AA24B24D86001A6273 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240BC8A924B24D86001A6273 /* PostData.swift */; };
+		2460025924B8F17200D1C2A3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460025824B8F17200D1C2A3 /* DetailView.swift */; };
+		2460025B24B8F6D800D1C2A3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2460025A24B8F6D800D1C2A3 /* WebView.swift */; };
 		24D54BCF24A9161100C9D8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D54BCE24A9161100C9D8E4 /* AppDelegate.swift */; };
 		24D54BD124A9161100C9D8E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D54BD024A9161100C9D8E4 /* SceneDelegate.swift */; };
 		24D54BD324A9161100C9D8E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D54BD224A9161100C9D8E4 /* ContentView.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		240BC8A524B21F29001A6273 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		240BC8A924B24D86001A6273 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		2460025824B8F17200D1C2A3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2460025A24B8F6D800D1C2A3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		24D54BCB24A9161000C9D8E4 /* H4X0R News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H4X0R News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D54BCE24A9161100C9D8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D54BD024A9161100C9D8E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240BC8A424B21EF1001A6273 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				240BC8A524B21F29001A6273 /* NetworkManager.swift */,
+				240BC8A924B24D86001A6273 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2460025724B8F15300D1C2A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24D54BD224A9161100C9D8E4 /* ContentView.swift */,
+				2460025824B8F17200D1C2A3 /* DetailView.swift */,
+				2460025A24B8F6D800D1C2A3 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		24D54BC224A9161000C9D8E4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +85,8 @@
 			children = (
 				24D54BCE24A9161100C9D8E4 /* AppDelegate.swift */,
 				24D54BD024A9161100C9D8E4 /* SceneDelegate.swift */,
-				24D54BD224A9161100C9D8E4 /* ContentView.swift */,
+				2460025724B8F15300D1C2A3 /* Views */,
+				240BC8A424B21EF1001A6273 /* Models */,
 				24D54BD424A9161700C9D8E4 /* Assets.xcassets */,
 				24D54BD924A9161700C9D8E4 /* LaunchScreen.storyboard */,
 				24D54BDC24A9161700C9D8E4 /* Info.plist */,
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240BC8AA24B24D86001A6273 /* PostData.swift in Sources */,
+				2460025924B8F17200D1C2A3 /* DetailView.swift in Sources */,
+				240BC8A624B21F29001A6273 /* NetworkManager.swift in Sources */,
 				24D54BCF24A9161100C9D8E4 /* AppDelegate.swift in Sources */,
 				24D54BD124A9161100C9D8E4 /* SceneDelegate.swift in Sources */,
 				24D54BD324A9161100C9D8E4 /* ContentView.swift in Sources */,
+				2460025B24B8F6D800D1C2A3 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
